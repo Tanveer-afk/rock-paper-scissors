@@ -1,0 +1,7 @@
+1. make fn. to get computer choice / use Math.random.
+
+2. accept user input using prompt. 
+
+3. keep track of use and comp scores
+
+4.More organised to keep the functions in a seperate js file to avoid clutter and confusion
