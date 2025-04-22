@@ -4,16 +4,21 @@
     2 : Scissors
 */
 
-let rounds = 1;
-roundsinput();
-
-
-let userscore = 0 ;
+let rounds = 5;
+let userscore = 0;
 let compscore = 0;
 let message = " ";
 
 
-for( let i = 1 ; i<= rounds ; i++){
+playerinput((value) => {
+    console.log('Input : ' + value);
+})
+
+
+
+
+/*
+for (let i = 1; i <= rounds; i++) {
     let playerchoice = playerinput();
     play(playerchoice);
 }
@@ -22,3 +27,7 @@ let finalscorecard = " Player Score : " + userscore + "\n Computer Score : " + c
 
 
 console.log(finalscorecard);
+*/
+
+
+

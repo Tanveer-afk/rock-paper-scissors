@@ -1,4 +1,167 @@
-*{
-    background-color: black;
-    color: white;
+* {
+    background-color: #252526;
+    color: #E5E0D7;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.game_name {
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 40px;
+}
+
+.player_actions {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 75px;
+    margin-top: 50px;
+
+}
+
+
+
+
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Doto", sans-serif;
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 250px;
+}
+
+.yourscore {
+    font-family: "Doto", sans-serif;
+
+}
+
+.yourscorenum {
+    font-family: "Doto", sans-serif;
+    font-size: 100px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Doto", sans-serif;
+    margin-right: 50px;
+    width: 250px;
+
+}
+
+.compscore {
+    font-family: "Doto", sans-serif;
+}
+
+.compscoreval {
+    font-family: "Doto", sans-serif;
+    font-size: 100px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.guthub {
+    width: 16px;
+    height: auto;
+}
+
+.gmail {
+    width: 16px;
+    height: auto;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.player_actions a {
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
+}
+
+
+
+.player_actions a:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.player_actions a:active {
+    transform: scale(1);
+}
+
+.restart {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.restartbtn {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border: 2px solid;
+    border-color: #E5E0D7;
+    border-radius: 10px;
+
+}
+
+.restart button {
+    display: block;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+    position: relative;
+}
+
+.restart button:hover,
+.contacts a:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.restart button:active,
+.contacts a:active {
+    transform: scale(1);
+}
+
+.restartbtnholder {
+    text-decoration: none;
 }

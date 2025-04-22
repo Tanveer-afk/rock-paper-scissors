@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="ui_functions.js" defer></script>
+    <script src="script.js" defer></script>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  
     
-    <script src="functions.js"></script>
-    <script src="script.js"></script>
 
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game_name">Rock Paper Scissors !</div>
+    <div class="main">
+      <div class="left">
+        <div class="yourscorenum">0</div>
+        <div class="yourscore">You</div>
+      </div>
+
+      <div class="player_actions">
+        <a class="rock"> <img src="images/rps-rock.png" alt="Rock Image"> </a>
+        <a class="paper"> <img src="images/rps-paper.png" alt="Paper Image"> </a>
+        <a class="scissors"> <img src="images/rps-scissors.png" alt="Scissors Image"> </a>
+      </div>
+
+      <div class="right">
+        <div class="compscoreval">0</div>
+        <div class="compscore">Computer</div>
+      </div>
+
+      </div>
+
+      
+
+    <div class="result"> You Win! </div>
+
+    <a class="restartbtnholder" href="#"><div class="restart"><button class="restartbtn" > Restart </button> </div></a>
+
+    <div class="contacts">
+      <a class="github" href="https://mail.google.com/mail/?view=cm&fs=1&to=tanveerrajbi@gmail.com&su=Get%20in%20touch&body=Hi%20Tanveer" target="_blank" "> <img src="images/github_small_white_32.png"> </a>
+      <a class="gmail" href="https://github.com/Tanveer-afk" target="_blank"> <img src="images/gmail_small_32.png"> </a>
+    </div>
+  </body>
 </html>
